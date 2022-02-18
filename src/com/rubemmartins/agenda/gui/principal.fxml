@@ -70,9 +70,9 @@
                   </GridPane>
                   <HBox layoutX="112.0" layoutY="185.0" prefHeight="25.0" prefWidth="175.0" spacing="16.0" AnchorPane.bottomAnchor="32.0" AnchorPane.rightAnchor="43.0">
                      <children>
-                        <Button mnemonicParsing="false" text="Novo" />
-                        <Button mnemonicParsing="false" text="Editar" />
-                        <Button mnemonicParsing="false" text="Excluir" />
+                        <Button mnemonicParsing="false" onAction="#handleNovaPessoa" text="Novo" />
+                        <Button mnemonicParsing="false" onAction="#handleEditaPessoa" text="Editar" />
+                        <Button mnemonicParsing="false" onAction="#handleExcluiPessoa" text="Excluir" />
                      </children>
                   </HBox>
                </children>
